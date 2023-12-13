@@ -1,0 +1,29 @@
+.search-wrapper {
+    margin-top: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#search {
+    background-color: whitesmoke;
+    height: 24px;
+    width: 480px;
+    border-radius: 16px;
+    border: 1px solid grey;
+    font-size: 16px;
+    padding: 14px;
+    font-family: system-ui;
+}
+
+#search-button-wrapper {
+    margin-left: 36px;
+}
+
+#search-button {
+    padding: 16px;
+    border-radius: 16px;
+    border: 1px solid grey;
+    font-size: 16px;
+    font-family: system-ui;
+}
