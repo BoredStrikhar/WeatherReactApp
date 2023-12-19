@@ -1,0 +1,71 @@
+.weather-card-wrapper {
+    width: 600px;
+    height: 400px;
+    background-image: url("../assets/default.jpg");
+    background-position: center center;
+    border-radius: 32px;
+    margin-top: 64px;
+}
+
+.weather-content-wrapper {
+    width: 600px;
+    height: 400px;
+    backdrop-filter: blur(4px);
+    font-size: 64px;
+    font-family: system-ui;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.additional-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.temperature-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+}
+
+.wind-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+}
+
+.humidity-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+}
+
+@media screen and (max-width: 744px) {
+    .weather-card-wrapper {
+        width: 450px;
+        height: 300px;
+    }
+    .weather-content-wrapper {
+        width: 450px;
+        height: 300px;
+        font-size: 54px;
+    }
+}
+
+@media screen and (max-width: 566px) {
+    .weather-card-wrapper {
+        width: 300px;
+        height: 200px;
+    }
+    .weather-content-wrapper {
+        width: 300px;
+        height: 200px;
+        font-size: 48px;
+    }
+}
